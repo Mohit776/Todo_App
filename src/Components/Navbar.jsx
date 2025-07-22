@@ -6,7 +6,7 @@ const Navbar = () => {
     <>
    <div className='flex justify-between bg-blue-300 py-4 rounded-md my-2 mx-3 '>
     <div className="logo">
-        <span className='mx-8 font-bold text-xl'>Piyush's Todo List</span>
+        <span className='mx-8 font-bold text-xl'>Mohit's Todo List</span>
     </div>
     <ul className='flex gap-8 px-4'>
         <li className='cursor-pointer hover:font-bold transition-all hover:underline'>Home</li>
