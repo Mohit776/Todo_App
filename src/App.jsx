@@ -83,7 +83,8 @@ function App() {
 
       <div className="w-1/2 container bg-violet-100 py-4 rounded-md mx-auto p-5">
         <div className='flex justify-between'>
-          <input placeholder='ADD A TODO' type="text" id="" className='w-96 px-4' onChange={changeHandle} value={todo} />
+          <input placeholder='ADD A TODO' type="text" id="" className='w-96 px-4'  onChange={changeHandle} value={todo} />
+          <input type="date" name="date" id="" className='w-48 px-4' />
           <button className='add bg-blue-500  w-20 font-semibold rounded-md h-10 hover:font-bold hover:underline' type="button" onClick={handleAdd}>Save</button>
         </div>
         <div className='yourtodo'>
@@ -105,6 +106,7 @@ function App() {
               </div>
             })}
           </div>
+
 
         </div>
 
