@@ -9,8 +9,12 @@ const Navbar = () => {
         <span className='mx-8 font-bold text-xl'>Mohit's Todo List</span>
     </div>
     <ul className='flex gap-8 px-4'>
-        <li className='cursor-pointer hover:font-bold transition-all hover:underline'>Home</li>
-       <a href='/About'> <li className='cursor-pointer hover:font-bold transition-all hover:underline'>About</li></a>
+   
+       <a href='/'> <li className='cursor-pointer hover:font-bold transition-all hover:underline'>Home</li></a>
+       <a href='/Todo'> <li className='cursor-pointer hover:font-bold transition-all hover:underline'>Todo</li></a>
+       <a href='/Canlender'> <li className='cursor-pointer hover:font-bold transition-all hover:underline'>Calender</li></a>
+        <a href='/sign'> <li className='cursor-pointer hover:font-bold transition-all hover:underline'>Sign in </li></a>
+          
         <li className='cursor-pointer hover:font-bold transition-all hover:underline'>Contact</li>
     </ul>
    </div>
